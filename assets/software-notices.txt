@@ -1,0 +1,167 @@
+THIRD-PARTY SOFTWARE NOTICES
+
+three
+The MIT License
+
+Copyright © 2010-2026 three.js authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+@needle-tools/three-animation-pointer
+The MIT License (MIT)
+
+Copyright (c) 2025 Needle Tools GmbH
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+lucide
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+draco3dgltf
+
+<p align="center">
+<img src="https://github.com/google/draco/raw/master/docs/DracoLogo.jpeg" />
+</p>
+
+Description - glTF Draco Mesh Compression Extension
+===================================================
+
+The `draco3dgltf` package is a subset of the `draco3d` package, containing only
+features of the Draco library that are relevant to compression in the glTF file
+format. glTF files (`.gltf`, `.glb`) can contain Draco-compressed mesh geometry,
+as defined by the glTF extension `KHR_draco_mesh_compression`.
+
+This library does not directly read/write glTF files, but is intended for use
+within tools and applications that deal with the glTF format. Examples of tools
+using the Draco library to apply compression to glTF files include:
+
+[Blender](https://www.blender.org/),
+[glTF Transform](https://gltf-transform.donmccurdy.com/), and
+[glTF Pipeline](https://github.com/CesiumGS/gltf-pipeline).
+
+Draco github glTF branch URL: https://github.com/google/draco/tree/gltf_2.0_draco_extension
+
+News
+=======
+
+Check out the [README](https://github.com/google/draco/blob/1.5.7/README.md)
+file for news about this release.
+
+NPM Package
+===========
+
+The code shows a simple example of using Draco encoder and decoder with Node.js.
+`draco_encoder_node.js` and `draco_decoder_node.js` are modified Javascript
+encoding/decoding files that are compatible with Node.js.
+`draco_nodejs_example.js` has the example code for usage.
+Here we use a Draco file as an example, but when it's used with glTF assets, the
+Draco file should be instead some buffer data contained in the binary data.
+
+How to run the code:
+
+(1) Install draco3dgltf package :
+
+~~~~~ bash
+$ npm install draco3dgltf
+~~~~~
+
+(2) Run example code to test:
+
+~~~~~ bash
+$ cp node_modules/draco3dgltf/draco_nodejs_example.js .
+$ cp node_modules/draco3dgltf/bunny.drc .
+$ node draco_nodejs_example.js
+~~~~~
+
+The code loads the [Bunny] model, it will first decode to a mesh
+and then encode it with different settings.
+
+glTF Extension
+==============
+
+The above example shows how to decode compressed data from a binary file. To use with glTF assets. The decoder should be applied to the data of the `bufferView` that belongs to a Draco extension. Please see the spec for detailed instruction on loading/exporting Draco extension.
+
+References
+==========
+[Draco]: https://github.com/google/draco
+[Bunny]: https://graphics.stanford.edu/data/3Dscanrep/
+
+Bunny model from Stanford's graphic department <https://graphics.stanford.edu/data/3Dscanrep/>
+
+
